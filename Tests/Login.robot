@@ -9,5 +9,5 @@ Login
     Signin With User    ${USER1-DETAILS}[email]     ${USER1-DETAILS}[password]
     Go To Chat Tab
     Go to Profile Page
-    set appium timeout      3s
+    Sleep  5s
     Click The Logout Button
